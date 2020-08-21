@@ -17,6 +17,7 @@
     "autoload-dev": {
         "psr-4": {
             "CrudApi\\Tests\\": "tests/"
-        }
+        },
+        "files": ["src/helpers.php"]
     }
 }
