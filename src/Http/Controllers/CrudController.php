@@ -1,20 +1,20 @@
 <?php
 
-namespace XxShuai\CrudApi\Http\Controllers;
+namespace CrudApi\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Str;
-use XxShuai\CrudApi\Http\Models\CrudPanel;
+use CrudApi\Http\Models\CrudPanel;
 
 class CrudController extends Controller
 {
     use DispatchesJobs, ValidatesRequests;
 
     /**
-     * @var \XxShuai\CrudApi\Http\Models\CrudPanel
+     * @var \CrudApi\Http\Models\CrudPanel
      */
     public $crud;
     public $data = [];

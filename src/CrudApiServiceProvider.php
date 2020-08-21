@@ -1,6 +1,6 @@
 <?php
 
-namespace XxShuai\CrudApi;
+namespace CrudApi;
 
 use Illuminate\Support\ServiceProvider;
 

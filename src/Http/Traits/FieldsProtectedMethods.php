@@ -1,6 +1,6 @@
 <?php
 
-namespace XxShuai\CrudApi\Http\Traits;
+namespace CrudApi\Http\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

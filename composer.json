@@ -11,12 +11,12 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "xxshuai\\crud-api\\": "src/"
+            "CrudApi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "xxshuai\\crud-api\\Tests\\": "tests/"
+            "CrudApi\\Tests\\": "tests/"
         }
     }
 }

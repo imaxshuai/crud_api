@@ -1,9 +1,9 @@
 <?php
 
-namespace XxShuai\CrudApi\Http\Traits;
+namespace CrudApi\Http\Traits;
 
 use Illuminate\Support\Collection;
-use XxShuai\CrudApi\Http\Models\CrudButton;
+use CrudApi\Http\Models\CrudButton;
 
 trait Buttons
 {

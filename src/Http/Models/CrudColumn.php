@@ -1,6 +1,6 @@
 <?php
 
-namespace XxShuai\CrudApi\Http\Models;
+namespace CrudApi\Http\Models;
 
 /**
  * Adds fluent syntax to Backpack CRUD Columns.
