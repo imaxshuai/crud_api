@@ -1,15 +1,15 @@
 <?php
 
-namespace Max\CrudApi\Http\Models;
+namespace XxShuai\CrudApi\Http\Models;
 
-use Max\CrudApi\Http\Traits\Columns;
-use Max\CrudApi\Http\Traits\Fields;
-use Max\CrudApi\Http\Traits\Query;
-use Max\CrudApi\Http\Traits\Buttons;
-use Max\CrudApi\Http\Traits\Filters;
-use Max\CrudApi\Http\Traits\Validation;
-use Max\CrudApi\Http\Traits\Operations;
-use Max\CrudApi\Http\Traits\Settings;
+use XxShuai\CrudApi\Http\Traits\Columns;
+use XxShuai\CrudApi\Http\Traits\Fields;
+use XxShuai\CrudApi\Http\Traits\Query;
+use XxShuai\CrudApi\Http\Traits\Buttons;
+use XxShuai\CrudApi\Http\Traits\Filters;
+use XxShuai\CrudApi\Http\Traits\Validation;
+use XxShuai\CrudApi\Http\Traits\Operations;
+use XxShuai\CrudApi\Http\Traits\Settings;
 
 class CrudPanel
 {

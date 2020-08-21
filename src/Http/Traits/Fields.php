@@ -1,6 +1,6 @@
 <?php
 
-namespace Max\CrudApi\Http\Traits;
+namespace XxShuai\CrudApi\Http\Traits;
 
 use Backpack\CRUD\app\Library\CrudPanel\CrudField;
 use Illuminate\Support\Arr;

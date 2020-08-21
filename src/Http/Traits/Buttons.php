@@ -1,9 +1,9 @@
 <?php
 
-namespace Max\CrudApi\Http\Traits;
+namespace XxShuai\CrudApi\Http\Traits;
 
 use Illuminate\Support\Collection;
-use Max\CrudApi\Http\Models\CrudButton;
+use XxShuai\CrudApi\Http\Models\CrudButton;
 
 trait Buttons
 {

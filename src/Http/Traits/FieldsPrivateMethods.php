@@ -1,6 +1,6 @@
 <?php
 
-namespace Max\CrudApi\Http\Traits;
+namespace XxShuai\CrudApi\Http\Traits;
 
 trait FieldsPrivateMethods
 {

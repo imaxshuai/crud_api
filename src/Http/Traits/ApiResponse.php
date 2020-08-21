@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Max\CrudApi\Http\Traits;
+namespace XxShuai\CrudApi\Http\Traits;
 
 use Illuminate\Http\Response;
 use Symfony\Component\HttpFoundation\Response as FoundationResponse;

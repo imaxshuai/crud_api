@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Max\CrudApi\Http\Controllers;
+namespace XxShuai\CrudApi\Http\Controllers;
 
-use Max\CrudApi\Http\Traits\ApiResponse;
+use XxShuai\CrudApi\Http\Traits\ApiResponse;
 
 class ApiCRUDController extends CrudController
 {
