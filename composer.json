@@ -1,0 +1,22 @@
+{
+    "name": "max/crud-api",
+    "description": "crud manage api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xushuai",
+            "email": "229436890@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "max\\crud-api\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "max\\crud-api\\Tests\\": "tests/"
+        }
+    }
+}
