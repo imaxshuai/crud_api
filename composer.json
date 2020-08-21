@@ -1,5 +1,5 @@
 {
-    "name": "max/crud-api",
+    "name": "xxshuai/crud-api",
     "description": "crud manage api",
     "license": "MIT",
     "authors": [
@@ -11,12 +11,12 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "max\\crud-api\\": "src/"
+            "xxshuai\\crud-api\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "max\\crud-api\\Tests\\": "tests/"
+            "xxshuai\\crud-api\\Tests\\": "tests/"
         }
     }
 }
