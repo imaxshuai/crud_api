@@ -11,12 +11,12 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "CrudApi\\": "src/"
+            "XXShuai\\CrudApi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CrudApi\\Tests\\": "tests/"
+            "XXShuai\\CrudApi\\Tests\\": "tests/"
         },
         "files": ["src/helpers.php"]
     }
