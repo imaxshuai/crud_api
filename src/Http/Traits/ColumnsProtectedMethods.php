@@ -1,6 +1,6 @@
 <?php
 
-namespace CrudApi\Http\Traits;
+namespace XXShuai\CrudApi\Http\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -59,7 +59,7 @@ trait ColumnsProtectedMethods
     protected function makeSureColumnHasLabel($column)
     {
         if (! isset($column['label'])) {
-            $column['label'] = mb_ucfirst($this->makeLabel($column['name']));
+            $column['label'] = ucfirst($this->makeLabel($column['name']));
         }
 
         return $column;

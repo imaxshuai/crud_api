@@ -1,15 +1,19 @@
 <?php
 
 
-namespace CrudApi\Http\Controllers;
+namespace XXShuai\CrudApi\Http\Controllers;
 
-use CrudApi\Http\Traits\ApiResponse;
+use XXShuai\CrudApi\Http\Models\CrudPanel;
+use XXShuai\CrudApi\Http\Traits\ApiResponse;
 
 class ApiCRUDController extends CrudController
 {
 
     use ApiResponse;
 
+    /**
+     * @var CrudPanel
+     */
     public $crud;
 
     public function index()

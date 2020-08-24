@@ -1,6 +1,6 @@
 <?php
 
-namespace CrudApi\Http\Traits;
+namespace XXShuai\CrudApi\Http\Traits;
 
 use Backpack\CRUD\app\Library\CrudPanel\CrudFilter;
 use Illuminate\Support\Collection;

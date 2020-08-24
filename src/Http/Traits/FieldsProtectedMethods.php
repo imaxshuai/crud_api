@@ -1,6 +1,6 @@
 <?php
 
-namespace CrudApi\Http\Traits;
+namespace XXShuai\CrudApi\Http\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -216,7 +216,7 @@ trait FieldsProtectedMethods
         if (! isset($field['label'])) {
             $name = is_array($field['name']) ? $field['name'][0] : $field['name'];
             $name = str_replace('_id', '', $name);
-            $field['label'] = mb_ucfirst(str_replace('_', ' ', $name));
+            $field['label'] = ucfirst(str_replace('_', ' ', $name));
         }
 
         return $field;
@@ -232,7 +232,7 @@ trait FieldsProtectedMethods
     protected function makeSureFieldHasType($field)
     {
         if (! isset($field['type'])) {
-            $field['type'] = isset($field['relation_type']) ? $this->inferFieldTypeFromFieldRelation($field) : $this->inferFieldTypeFromDbColumnType($field['name']);
+            $field['type'] = "text";
         }
 
         return $field;

@@ -1,6 +1,6 @@
 <?php
 
-namespace CrudApi\Http\Traits;
+namespace XXShuai\CrudApi\Http\Traits;
 
 use Illuminate\Support\Arr;
 
@@ -40,7 +40,7 @@ trait Columns
                 } else {
                     $this->addColumn([
                         'name'  => $column,
-                        'label' => mb_ucfirst($column),
+                        'label' => ucfirst($column),
                         'type'  => 'text',
                     ]);
                 }
@@ -50,7 +50,7 @@ trait Columns
         if (is_string($columns)) {
             $this->addColumn([
                 'name'  => $columns,
-                'label' => mb_ucfirst($columns),
+                'label' => ucfirst($columns),
                 'type'  => 'text',
             ]);
         }

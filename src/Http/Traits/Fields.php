@@ -1,17 +1,18 @@
 <?php
 
-namespace CrudApi\Http\Traits;
+namespace XXShuai\CrudApi\Http\Traits;
 
-use Backpack\CRUD\app\Library\CrudPanel\CrudField;
+use XXShuai\CrudApi\Http\Models\CrudField;
 use Illuminate\Support\Arr;
 
 trait Fields
 {
+    use FieldsProtectedMethods;
+    use FieldsPrivateMethods;
+
     // ------------
     // FIELDS
     // ------------
-    use FieldsProtectedMethods;
-    use FieldsPrivateMethods;
 
     /**
      * Get the CRUD fields for the current operation.
@@ -57,7 +58,7 @@ trait Fields
      *
      * @param string|array $field The new field.
      *
-     * @return self
+     * @return Fields
      */
     public function addField($field)
     {
